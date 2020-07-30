@@ -1,0 +1,8 @@
+body{
+    background-image: url("img/bg.png");
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 20px 10px;
+}
