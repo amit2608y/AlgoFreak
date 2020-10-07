@@ -95,18 +95,57 @@
                     <p>Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare<br>
                          one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to<br>
                           represent individual variables. A specific element in an array is accessed by an index.</p>
-                </div>
+                          <img src="img/a2.png">               
+                        </div>
             </div>
             <hr>
             <div id="4" class="lan-area">
                 <div class="text-content">
                     <h4>Array in C/C++</h4>
+                    <p>An array in C or C++ is a collection of items stored at contiguous memory locations and elements can be accessed randomly using indices of an array. They are used to store similar type of elements as in the data type must be the same for all elements. They can be used to store collection of primitive data types such as int, float, double, char, etc of any particular type. To add to it, an array in C or C++ can store derived data types such as the structures, pointers etc.</p>
+                    <p>#include <iostream> <br>
+                        using namespace std; <br>
+                        <br>
+                        int main() <br>
+                        { <br>
+                            int arr[5]; <br>
+                            arr[0] = 5; <br>
+                            arr[2] = -10; <br>
+                            <br>
+                            // this is same as arr[1] = 2<br> 
+                            arr[3 / 2] = 2; <br>
+                            arr[3] = arr[0]; <br>
+                            <br>
+                            cout << arr[0] << " " << arr[1]<br> 
+                                 << " " << arr[2] << " " << arr[3];<br> 
+                                 <br>
+                            return 0; <br>
+                        } <br>
+                        <br><br>
+                        Output:<br>
+5 2 -10 5
+                    </p>
                 </div>
             </div>
             <hr>
             <div id="5" class="adv-area">
                 <div class="text-content">
                     <h4>Pros and cons</h4>
+                    <h5>Pros :</h5>
+                    <ul>
+                        <li>Arrays represent multiple data items of the same type using a single name.</li>
+                        <li>In arrays, the elements can be accessed randomly by using the index number.</li>
+                        <li>Arrays allocate memory in contiguous memory locations for all its elements. Hence there is no chance of extra memory being allocated in case of arrays. This avoids memory overflow or shortage of memory in arrays.</li>
+                        <li>Using arrays, other data structures like linked lists, stacks, queues, trees, graphs etc can be implemented.</li>
+                        <li>Two-dimensional arrays are used to represent matrices.</li>
+                    </ul>
+                    <h5>Cons :</h5>
+                    <ul>
+                        <li>The number of elements to be stored in an array should be known in advance.</li>
+                        <li>An array is a static structure (which means the array is of fixed size). Once declared the size of the array cannot be modified. The memory which is allocated to it cannot be increased or decreased.</li>
+                        <li>Insertion and deletion are quite difficult in an array as the elements are stored in consecutive memory locations and the shifting operation is costly.</li>
+                        <li>Allocating more memory than the requirement leads to wastage of memory space and less allocation of memory also leads to a problem.</li>
+                    </ul>
                 </div>
             </div>
             <hr>
