@@ -2,7 +2,7 @@
   "name": "webpro",
   "version": "1.0.0",
   "description": "Website based on Data Structure and Algorithm",
-  "main": "login.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/amit2608y/WebPro/issues"
   },
-  "homepage": "http://127.0.0.1:5501/login.html",
+  "homepage": "https://github.com/amit2608y/AlgoFreak/blob/master/index.html",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
