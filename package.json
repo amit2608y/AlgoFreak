@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/amit2608y/WebPro/issues"
   },
-  "homepage": "https://github.com/amit2608y/AlgoFreak/blob/master/login.html",
+  "homepage": "http://127.0.0.1:5501/login.html",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
